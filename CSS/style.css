@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto';
+}
+
+@font-face {
+    font-family: 'noto';
+    src: url(../Fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+nav {
+    height: 80px;
+    background-color: #f0f2f5;
+    /* border:2px solid black ; */
+    /* border-bottom:2px solid gainsboro ; */
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.left> :first-child {
+    height: 60px;
+    position: relative;
+    bottom: 30%;
+    margin-left: 2px;
+}
+
+.left img {
+    width: 100%;
+    margin-top: 28px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.left img:hover {
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.right {
+    position: relative;
+    /* border: 2px solid black; */
+    left: 1%;
+}
+
+.right img {
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.right img:hover {
+    background-color: gainsboro;
+    border-radius: 16px;
+}
+
+.main-input {
+    width: 50.1%;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-bottom: none;
+
+}
+
+.main-input input {
+    position: relative;
+    top: 30%;
+    width: 70%;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(247, 246, 246);
+    margin-left: 20px;
+}
+
+.main-input img {
+    position: relative;
+    top: 37%;
+    left: 9%;
+    z-index: 1;
+}
+
+.y-axis {
+
+    width: 50%;
+    height: 600px;
+    /* border:2px solid black ; */
+    padding-top: 90px;
+    font-weight: 400;
+    overflow-y: scroll;
+}
+
+#list ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#list ul li {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 90px;
+    position: relative;
+    bottom: 33px;
+}
+
+#list ul img {
+    width: 7%;
+}
+
+#message {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid #d5d5d5;
+}
+#message:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.profile {
+    margin-top: 0.8%;
+    margin-left: 2%;
+    width: 13%;
+    height: 85px;
+    /* border: 2px solid black; */
+    /* background: url(../icons/1.jpg); */
+}
+
+.profile img {
+    border-radius: 70px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.content p {
+    position: relative;
+    bottom: 69px;
+    right: 20%;
+    font-size: 21px;
+}
+
+.content-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.content-profile p {
+    position: relative;
+    bottom: 60px;
+    right: 11%;
+    color: #b1b1b1de;
+}
+
+/* Right main container */
+#right-main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* left: 10%; */
+    width: 50%;
+    height: 680px;
+    /* border: 2px solid blue; */
+    background-color: #dadada;
+}
+.iconbar i{
+    cursor: pointer;
+}
+
+.img-sect{
+    width: 30%;
+    margin-top: 20px;
+    height: 20px;
+    /* border: 2px solid black; */
+    margin-left: 29px;
+}
+.img-sect img{
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.main-top {
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    border-left: 1px solid gainsboro;
+    display: flex;
+    background-color: #f0f2f5;
+}
+
+.pic {
+    display: flex;
+
+    margin: 10px;
+    width: 10%;
+    height: 50px;
+    /* border: 2px solid black; */
+}
+
+.pic img {
+    width: 90%;
+    border-radius: 40px;
+    /* padding: 12PX; */
+}
+
+.pic p {
+    margin-left: 20px;
+}
+
+.icons {
+    position: absolute;
+    right: 0%;
+    top: 3%;
+}
+
+.icons img {
+    margin-left: 10px;
+}
+
+.icons img:hover {
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.bottom {
+    width: 100%;
+    height: 90px;
+    border: 2px solid black;
+    border-left: 1px solid gainsboro;
+    position: absolute;
+    bottom: 0%;
+    background-color: #f0f2f5;
+}
+
+.plus-icon {
+    position: relative;
+    right: 0%;
+    top: 14%;
+}
+
+.plus-icon img {
+    width: 40px;
+    position: relative;
+    margin-left: 5px;
+    top: 13px;
+}
+
+.plus-icon img:hover {
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+
+.ee {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.plus-icon input {
+    outline: none;
+    border-radius: 12px;
+    width: 70%;
+    margin-left: 20px;
+    padding: 10px 14px;
+}
